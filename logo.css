@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+
+nav{
+    width: 100%;
+    background: black;
+    overflow: auto;
+}
+
+ul{
+    padding: 5px;
+    margin: 0 0 0 150px;
+    list-style:none;
+}
+@media (max-width: 400px;){
+    ul{
+    padding:0;
+    margin: 0 0 0 50px;
+    list-style: none;
+    }
+}
+
+li{
+    float: left;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 15px; 
+    margin-left: 10px;
+}
+nav a{
+    width: 80px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial;
+    color:#f2f2f2;
+    text-align: center;
+    /* overflow: auto; */
+
+    }
+@media (max-width: 480px) { 
+    nav a{
+        width:20px;
+        text-align: left;
+        display:block;
+        padding:20px;
+        font-size:12px;
+
+       
+        
+    }
+}  
+
+nav a:hover {
+    background: purple;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
